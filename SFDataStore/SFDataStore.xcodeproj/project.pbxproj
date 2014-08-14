@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554F5A08199C24160056B65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F5A07199C24160056B65F /* Foundation.framework */; };
+		554F5A16199C24160056B65F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F5A15199C24160056B65F /* XCTest.framework */; };
+		554F5A17199C24160056B65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F5A07199C24160056B65F /* Foundation.framework */; };
+		554F5A19199C24160056B65F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F5A18199C24160056B65F /* UIKit.framework */; };
+		554F5A1C199C24160056B65F /* libSFDataStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F5A04199C24160056B65F /* libSFDataStore.a */; };
+		554F5A22199C24160056B65F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 554F5A20199C24160056B65F /* InfoPlist.strings */; };
+		554F5A24199C24160056B65F /* SFDataStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F5A23199C24160056B65F /* SFDataStoreTests.m */; };
+		554F5A30199C25190056B65F /* sfdatamodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 554F5A2E199C25190056B65F /* sfdatamodel.xcdatamodeld */; };
+		554F5A33199C26E70056B65F /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F5A32199C26E70056B65F /* DataManager.m */; };
+		554F5A3A199C27CF0056B65F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F5A39199C27CF0056B65F /* Cocoa.framework */; };
+		554F5A44199C27CF0056B65F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 554F5A42199C27CF0056B65F /* InfoPlist.strings */; };
+		554F5A5C199C2B480056B65F /* MOCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F5A5B199C2B480056B65F /* MOCustomer.m */; };
+		554F5A64199C300C0056B65F /* sfdatamodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 554F5A2E199C25190056B65F /* sfdatamodel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		554F5A1A199C24160056B65F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554F59FC199C24160056B65F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554F5A03199C24160056B65F;
+			remoteInfo = SFDataStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		554F5A02199C24160056B65F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		554F5A04199C24160056B65F /* libSFDataStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSFDataStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		554F5A07199C24160056B65F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		554F5A0B199C24160056B65F /* SFDataStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFDataStore-Prefix.pch"; sourceTree = "<group>"; };
+		554F5A14199C24160056B65F /* SFDataStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFDataStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554F5A15199C24160056B65F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		554F5A18199C24160056B65F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		554F5A1F199C24160056B65F /* SFDataStoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFDataStoreTests-Info.plist"; sourceTree = "<group>"; };
+		554F5A21199C24160056B65F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		554F5A23199C24160056B65F /* SFDataStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFDataStoreTests.m; sourceTree = "<group>"; };
+		554F5A2F199C25190056B65F /* sfdatamodel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sfdatamodel.xcdatamodel; sourceTree = "<group>"; };
+		554F5A31199C26E70056B65F /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		554F5A32199C26E70056B65F /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		554F5A38199C27CF0056B65F /* sfdatamodels.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sfdatamodels.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		554F5A39199C27CF0056B65F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		554F5A41199C27CF0056B65F /* sfdatamodels-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sfdatamodels-Info.plist"; sourceTree = "<group>"; };
+		554F5A43199C27CF0056B65F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		554F5A45199C27CF0056B65F /* sfdatamodels-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sfdatamodels-Prefix.pch"; sourceTree = "<group>"; };
+		554F5A5A199C2B480056B65F /* MOCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOCustomer.h; sourceTree = "<group>"; };
+		554F5A5B199C2B480056B65F /* MOCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOCustomer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554F5A01199C24160056B65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F5A08199C24160056B65F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554F5A11199C24160056B65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F5A16199C24160056B65F /* XCTest.framework in Frameworks */,
+				554F5A19199C24160056B65F /* UIKit.framework in Frameworks */,
+				554F5A1C199C24160056B65F /* libSFDataStore.a in Frameworks */,
+				554F5A17199C24160056B65F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554F5A35199C27CF0056B65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F5A3A199C27CF0056B65F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554F59FB199C24160056B65F = {
+			isa = PBXGroup;
+			children = (
+				554F5A09199C24160056B65F /* SFDataStore */,
+				554F5A1D199C24160056B65F /* SFDataStoreTests */,
+				554F5A3F199C27CF0056B65F /* sfdatamodels */,
+				554F5A06199C24160056B65F /* Frameworks */,
+				554F5A05199C24160056B65F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		554F5A05199C24160056B65F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A04199C24160056B65F /* libSFDataStore.a */,
+				554F5A14199C24160056B65F /* SFDataStoreTests.xctest */,
+				554F5A38199C27CF0056B65F /* sfdatamodels.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554F5A06199C24160056B65F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A07199C24160056B65F /* Foundation.framework */,
+				554F5A15199C24160056B65F /* XCTest.framework */,
+				554F5A18199C24160056B65F /* UIKit.framework */,
+				554F5A39199C27CF0056B65F /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554F5A09199C24160056B65F /* SFDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A2D199C248B0056B65F /* Model */,
+				554F5A0A199C24160056B65F /* Supporting Files */,
+			);
+			path = SFDataStore;
+			sourceTree = "<group>";
+		};
+		554F5A0A199C24160056B65F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A0B199C24160056B65F /* SFDataStore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		554F5A1D199C24160056B65F /* SFDataStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A23199C24160056B65F /* SFDataStoreTests.m */,
+				554F5A1E199C24160056B65F /* Supporting Files */,
+			);
+			path = SFDataStoreTests;
+			sourceTree = "<group>";
+		};
+		554F5A1E199C24160056B65F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A1F199C24160056B65F /* SFDataStoreTests-Info.plist */,
+				554F5A20199C24160056B65F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		554F5A2D199C248B0056B65F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A31199C26E70056B65F /* DataManager.h */,
+				554F5A32199C26E70056B65F /* DataManager.m */,
+				554F5A5A199C2B480056B65F /* MOCustomer.h */,
+				554F5A5B199C2B480056B65F /* MOCustomer.m */,
+				554F5A2E199C25190056B65F /* sfdatamodel.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		554F5A3F199C27CF0056B65F /* sfdatamodels */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A40199C27CF0056B65F /* Supporting Files */,
+			);
+			path = sfdatamodels;
+			sourceTree = "<group>";
+		};
+		554F5A40199C27CF0056B65F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				554F5A41199C27CF0056B65F /* sfdatamodels-Info.plist */,
+				554F5A42199C27CF0056B65F /* InfoPlist.strings */,
+				554F5A45199C27CF0056B65F /* sfdatamodels-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554F5A03199C24160056B65F /* SFDataStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554F5A27199C24160056B65F /* Build configuration list for PBXNativeTarget "SFDataStore" */;
+			buildPhases = (
+				554F5A00199C24160056B65F /* Sources */,
+				554F5A01199C24160056B65F /* Frameworks */,
+				554F5A02199C24160056B65F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFDataStore;
+			productName = SFDataStore;
+			productReference = 554F5A04199C24160056B65F /* libSFDataStore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		554F5A13199C24160056B65F /* SFDataStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554F5A2A199C24160056B65F /* Build configuration list for PBXNativeTarget "SFDataStoreTests" */;
+			buildPhases = (
+				554F5A10199C24160056B65F /* Sources */,
+				554F5A11199C24160056B65F /* Frameworks */,
+				554F5A12199C24160056B65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554F5A1B199C24160056B65F /* PBXTargetDependency */,
+			);
+			name = SFDataStoreTests;
+			productName = SFDataStoreTests;
+			productReference = 554F5A14199C24160056B65F /* SFDataStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		554F5A37199C27CF0056B65F /* sfdatamodels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554F5A46199C27CF0056B65F /* Build configuration list for PBXNativeTarget "sfdatamodels" */;
+			buildPhases = (
+				554F5A34199C27CF0056B65F /* Sources */,
+				554F5A35199C27CF0056B65F /* Frameworks */,
+				554F5A36199C27CF0056B65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sfdatamodels;
+			productName = sfdatamodels;
+			productReference = 554F5A38199C27CF0056B65F /* sfdatamodels.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554F59FC199C24160056B65F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SF;
+			};
+			buildConfigurationList = 554F59FF199C24160056B65F /* Build configuration list for PBXProject "SFDataStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 554F59FB199C24160056B65F;
+			productRefGroup = 554F5A05199C24160056B65F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554F5A03199C24160056B65F /* SFDataStore */,
+				554F5A13199C24160056B65F /* SFDataStoreTests */,
+				554F5A37199C27CF0056B65F /* sfdatamodels */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554F5A12199C24160056B65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F5A22199C24160056B65F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554F5A36199C27CF0056B65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F5A44199C27CF0056B65F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554F5A00199C24160056B65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F5A30199C25190056B65F /* sfdatamodel.xcdatamodeld in Sources */,
+				554F5A5C199C2B480056B65F /* MOCustomer.m in Sources */,
+				554F5A33199C26E70056B65F /* DataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554F5A10199C24160056B65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F5A24199C24160056B65F /* SFDataStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554F5A34199C27CF0056B65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F5A64199C300C0056B65F /* sfdatamodel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		554F5A1B199C24160056B65F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554F5A03199C24160056B65F /* SFDataStore */;
+			targetProxy = 554F5A1A199C24160056B65F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		554F5A20199C24160056B65F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554F5A21199C24160056B65F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		554F5A42199C27CF0056B65F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554F5A43199C27CF0056B65F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		554F5A25199C24160056B65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		554F5A26199C24160056B65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		554F5A28199C24160056B65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SFDataStore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFDataStore/SFDataStore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		554F5A29199C24160056B65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SFDataStore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFDataStore/SFDataStore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		554F5A2B199C24160056B65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFDataStore/SFDataStore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SFDataStoreTests/SFDataStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		554F5A2C199C24160056B65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFDataStore/SFDataStore-Prefix.pch";
+				INFOPLIST_FILE = "SFDataStoreTests/SFDataStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		554F5A47199C27CF0056B65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sfdatamodels/sfdatamodels-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "sfdatamodels/sfdatamodels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		554F5A48199C27CF0056B65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sfdatamodels/sfdatamodels-Prefix.pch";
+				INFOPLIST_FILE = "sfdatamodels/sfdatamodels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554F59FF199C24160056B65F /* Build configuration list for PBXProject "SFDataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554F5A25199C24160056B65F /* Debug */,
+				554F5A26199C24160056B65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554F5A27199C24160056B65F /* Build configuration list for PBXNativeTarget "SFDataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554F5A28199C24160056B65F /* Debug */,
+				554F5A29199C24160056B65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554F5A2A199C24160056B65F /* Build configuration list for PBXNativeTarget "SFDataStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554F5A2B199C24160056B65F /* Debug */,
+				554F5A2C199C24160056B65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554F5A46199C27CF0056B65F /* Build configuration list for PBXNativeTarget "sfdatamodels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554F5A47199C27CF0056B65F /* Debug */,
+				554F5A48199C27CF0056B65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		554F5A2E199C25190056B65F /* sfdatamodel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				554F5A2F199C25190056B65F /* sfdatamodel.xcdatamodel */,
+			);
+			currentVersion = 554F5A2F199C25190056B65F /* sfdatamodel.xcdatamodel */;
+			path = sfdatamodel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 554F59FC199C24160056B65F /* Project object */;
+}
